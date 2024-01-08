@@ -1,0 +1,172 @@
+*{
+    color: #F8F8F2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contenedor, #pantallaInicial{
+    display: flex;
+    flex-direction: column;
+    background-color: #282A36;
+    text-align: center;
+    min-height: 100vh;
+}
+
+header {
+    flex: 100% 0;
+}
+
+h1 {
+    font-size:40pt ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F1FA8C;
+    height: 5rem;
+    padding-top: 2rem;
+}
+
+
+#tablero, main{
+    display: flex;
+    flex: 1 100%;
+    flex-wrap: wrap;
+}
+
+#tableroMinas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 8rem;
+    background-color: #44475A;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+
+#tableroMinas>p{
+    flex: 100% 1;
+    font-size: 30pt;
+}
+
+#tableroMinas>button{
+    margin: 0.2rem;
+}
+
+#cuadro{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    flex: 1;
+    height: fit-content;
+}
+
+footer {
+    display: flex;
+    height: 4rem;
+    background-color: #44475A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer>h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 10pt;
+    padding-bottom: 0.5rem;
+}
+
+#leyenda{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+#leyenda>h2{
+    flex: 100%;
+}
+
+.boton{
+    padding: 10px 20px;
+    background-color: #50FA7B;
+    color: #44475A;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rojo {
+    background-color: #FF5555;
+}
+
+.naranja {
+    background-color: #FFB86C;
+}
+
+.rosa{
+    background-color: #FF79C6
+}
+
+.lila{
+    background-color: #BD93F9;
+}
+
+.cyan{
+    background-color: #8BE9FD;
+}
+
+.textoAmarillo{
+    color: #F1FA8C;
+}
+
+.textoRojo{
+    color: #FF5555;
+}
+
+.jugar{
+    flex: 100%;
+}
+
+.casillas {
+    margin: 0.25rem;
+}
+
+.tableros{
+    display: flex;
+    flex: 20% 0;
+    height: fit-content;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDireccion {
+    margin: 0.25rem;
+}
+
+.texoFondo:nth-child(1){
+    color: #282A36;
+}
+
+
+
+.leyendaTexto {
+    margin-top:0.5rem;
+    padding: 0;
+    height: 1rem;
+    flex: 0 50%;
+    text-align: left;
+    font-weight: 800;
+}
+
+.tituloPantallaInicial{
+    padding-top: 3rem;
+    font-size: 50pt;
+}
+
+.btnPP{
+    width: fit-content;
+    margin: 0 auto;
+}
